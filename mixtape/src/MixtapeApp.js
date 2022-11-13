@@ -18,43 +18,43 @@ export const MixtapeApp = () => {
 const songs = [
   {
     artist: "Tame Impala",
-    genre: "alternative",
+    genre: "alt",
     name: "Is It True",
     year: 2020
   },
   {
     artist: "Roosevelt",
-    genre: "electronic",
+    genre: "dance",
     name: "Moving On",
     year: 2016
   },
   {
-    artist: "The Replacements",
-    genre: "alternative",
-    name: "Can't Hardly Wait",
-    year: 1987
+    artist: "Iron Maiden",
+    genre: "rock",
+    name: "Aces High",
+    year: 1984
   },
   {
     artist: "Diplo",
-    genre: "electronic",
+    genre: "dance",
     name: "Turn Back Time",
     year: 2021
   },
   {
     artist: "Sir Sly",
-    genre: "alternative",
+    genre: "alt",
     name: "&run",
     year: 2017
   },
   {
     artist: "Nine Inch Nails",
-    genre: "alternative",
+    genre: "alt",
     name: "Closer",
     year: 1994
   },
   {
     artist: "Oliver Tree",
-    genre: "alternative",
+    genre: "alt",
     name: "Miss You",
     year: 2022
   },
@@ -72,49 +72,49 @@ const songs = [
   },
   {
     artist: "Studio Killers",
-    genre: "electronic",
+    genre: "dance",
     name: "Jenny (I Wanna Ruin Our Friendship)",
     year: 2013
   },
   {
     artist: "Clubz",
-    genre: "alternative",
+    genre: "alt",
     name: "Popscuro",
     year: 2018
   },
   {
     artist: "Jungle",
-    genre: "alternative",
+    genre: "alt",
     name: "Cherry",
     year: 2018
   },
   {
     artist: "MGMT",
-    genre: "alternative",
+    genre: "alt",
     name: "Little Dark Age",
     year: 2018
   },
   {
     artist: "Phoenix",
-    genre: "alternative",
+    genre: "alt",
     name: "Alpha Zulu",
     year: 2022
   },  
   {
     artist: "Elderbrook",
-    genre: "electronic",
+    genre: "dance",
     name: "Inner Light",
     year: 2021
   },
   {
     artist: "Sofi Tukker",
-    genre: "alternative",
+    genre: "alt",
     name: "Original Sin",
     year: 2022
   },
   {
     artist: "Poolside",
-    genre: "alterntaive",
+    genre: "alt",
     name: "Harvest Moon",
     year: 2012
   },
@@ -126,7 +126,7 @@ const songs = [
   },
   {
     artist: "Cannons",
-    genre: "alternative",
+    genre: "alt",
     name: "Fire for You",
     year: 2019
   },
@@ -144,13 +144,13 @@ const songs = [
   },
   {
     artist: "Spoon",
-    genre: "alternative",
+    genre: "alt",
     name: "Do You",
     year: 2014
   },
   {
     artist: "Daft Punk",
-    genre: "Electronic",
+    genre: "dance",
     name: "Instant Crush",
     year: 2012
   },
@@ -168,7 +168,7 @@ const songs = [
   },
   {
     artist: "The XX",
-    genre: "alternative",
+    genre: "alt",
     name: "Islands",
     year: 2009
   },
@@ -180,7 +180,7 @@ const songs = [
   },
   {
     artist: "Living Days",
-    genre: "alternative",
+    genre: "alt",
     name: "Thrill Anybody?",
     year: 2014
   }

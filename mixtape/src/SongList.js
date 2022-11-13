@@ -27,7 +27,7 @@ export const SongList = () => {
   let filteredAndSortedSongs = sortSongs(filterSongs(genre,songs), sortOrder);
   return (
     <div>
-      <h2>Update taste in music...?</h2>
+      <h2>{genre}</h2>
       {filteredAndSortedSongs.map(song => 
         <Song key={song.name} artist={song.artist} genre={song.genre} name={song.name} year={song.year} />
       )}

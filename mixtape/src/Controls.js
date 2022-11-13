@@ -16,8 +16,8 @@ export const Controls = () => {
     <div className="controls">
       <select value={genre} onChange={event => handleChange(event)}>
         <option value={"all"}>All</option>
-        <option value={"alternative"}>Alternative</option>
-        <option value={"electronic"}>Electronic</option>
+        <option value={"alt"}>alt</option>
+        <option value={"dance"}>dance</option>
         <option value={"rock"}>Rock</option>
         <option value={"pop"}>Pop</option>
       </select>
