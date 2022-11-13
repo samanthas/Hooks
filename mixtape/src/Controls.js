@@ -9,17 +9,17 @@ export const Controls = () => {
   }
 
   const handleClick = () => {
-    setSortOrder(sortOrder === "ascending" ? "descending" : "ascending")
+    setSortOrder(sortOrder === "Ascending" ? "Descending" : "Ascending")
   }
 
   return (
     <div className="controls">
       <select value={genre} onChange={event => handleChange(event)}>
-        <option value={"all"}>All</option>
-        <option value={"alt"}>alt</option>
-        <option value={"dance"}>dance</option>
-        <option value={"rock"}>Rock</option>
-        <option value={"pop"}>Pop</option>
+        <option value={"All"}>All</option>
+        <option value={"Alt"}>Alt</option>
+        <option value={"Dance"}>Dance</option>
+        <option value={"Rock"}>Rock</option>
+        <option value={"Pop"}>Pop</option>
       </select>
       <button onClick={() => handleClick()}>
         {sortOrder}

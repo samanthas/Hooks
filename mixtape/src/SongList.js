@@ -7,7 +7,7 @@ export const SongList = () => {
 
   const filterSongs = (genre, songs) => {
     let result = songs;
-    if(genre !== "all") {
+    if(genre !== "All") {
       result = songs.filter(song => song.genre === genre)
       console.log(genre)
       console.log(result)
@@ -16,7 +16,7 @@ export const SongList = () => {
   }
 
   const sortSongs = (songs, sort) => {
-    if (sort === "ascending") {
+    if (sort === "Ascending") {
       songs.sort((a,b) => a.year - b.year)
     } else {
       songs.sort((a,b) => b.year - a.year)
@@ -27,7 +27,7 @@ export const SongList = () => {
   let filteredAndSortedSongs = sortSongs(filterSongs(genre,songs), sortOrder);
   return (
     <div>
-      <h2>{genre}</h2>
+      <h2>{genre}({filteredAndSortedSongs.length})</h2>
       {filteredAndSortedSongs.map(song => 
         <Song key={song.name} artist={song.artist} genre={song.genre} name={song.name} year={song.year} />
       )}
